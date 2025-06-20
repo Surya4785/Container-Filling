@@ -9,6 +9,7 @@ smallCups.forEach((cup, idx) => {
     cup.addEventListener('click', () => highlightCups(idx))
 })
 
+
 function highlightCups(idx) {
     if (idx===7 && smallCups[idx].classList.contains("full")) idx--;
     else if(smallCups[idx].classList.contains('full') && !smallCups[idx].nextElementSibling.classList.contains('full')) {
@@ -25,6 +26,7 @@ function highlightCups(idx) {
 
     updateBigCup()
 }
+
 
 function updateBigCup() {
     const fullCups = document.querySelectorAll('.cup-small.full').length
