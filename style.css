@@ -9,6 +9,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #0e2a4d;
   color: #f9f7f7;
@@ -18,6 +19,7 @@ body {
   align-items: center;
   margin-bottom: 40px;
 }
+
 
 h1 {
   margin: 100px 0 0;
@@ -40,6 +42,7 @@ h3 {
   flex-direction: column;
   overflow: hidden;
 }
+
 
 .cup.cup-small {
   height: 150px;
